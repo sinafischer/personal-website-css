@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 112.5%;
@@ -20,4 +24,16 @@ h1 {
 a {
   text-decoration: none;
   border-bottom: 1px solid;
+}
+
+.box {
+  background: skyblue;
+  border: 3px solid;
+  padding: 15px;
+  width: 700px;
+  height: 350px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
